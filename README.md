@@ -60,4 +60,4 @@ This project is configured to deploy automatically to **GitHub Pages**.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-Built with Precision by [it-dev-student](https://github.com/your-username)
+Built with Precision by [Yotraboth](https://github.com/SEEDOFT)

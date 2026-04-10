@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce Microservices Architecture",
+      "title": "Laravel API for ecommerce application (KORK)",
       "stack": [
         "Laravel (PHP)",
         "PostgreSQL",

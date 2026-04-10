@@ -2,9 +2,9 @@
 import { ref, onMounted } from 'vue';
 
 // Customize your personal data here
-const username = ref("it-dev-student");
-const university = ref("Global Tech University");
-const graduating = ref("2025 (4th Year)");
+const username = ref("SEEDOFT");
+const university = ref("National University of Management, Cambodia");
+const graduating = ref("Year 4th Student, Expected Graduation: 2026");
 const currentRole = ref("Backend Developer (Laravel)");
 
 // Simple typing effect management
