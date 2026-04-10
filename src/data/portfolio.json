@@ -1,0 +1,78 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Microservices Architecture",
+      "stack": [
+        "Laravel (PHP)",
+        "PostgreSQL",
+        "MS SQL Server"
+      ],
+      "description": "Designed and deployed a decoupled API infrastructure for a multi-tenant platform, prioritizing performance and horizontal scalability.",
+      "role": "API, DevOps/Deployment",
+      "impact_snippet": "Optimized database queries, reducing checkout API response time",
+      "links": {
+        "github": "https://github.com/SEEDOFT/KORK-API"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Flutter Cross-Platform",
+      "stack": [
+        "Flutter (Dart)"
+      ],
+      "description": "Developed a mobile application game to celebrate the Khmer New Year, featuring interactive content and offline capabilities for users in low-connectivity areas.",
+      "role": "Mobile Application Developer",
+      "impact_snippet": "Fun and engaging app that received positive feedback for its performance and user experience, especially in regions with limited internet access.",
+      "links": {
+        "github": "https://github.com/SEEDOFT/Khmer-New-Year-Game"
+      }
+    },
+    {
+      "id": 3,
+      "title": "WPF Desktop Application",
+      "stack": [
+        "WPF (C#/.NET)"
+      ],
+      "description": "Created a lightweight desktop application for generating QR codes from URLs, and offer the ability to save generated QR codes as images for later use.",
+      "role": "Desktop Application Developer",
+      "impact_snippet": "Provided a simple and efficient tool for users to create and manage QR codes, enhancing accessibility and usability for various applications.",
+      "links": {
+        "github": "https://github.com/SEEDOFT/BLT-QR-Generator"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend",
+      "items": [
+        "PHP",
+        "Laravel",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "Laravel Blade"
+      ]
+    },
+    {
+      "category": "Mobile/Desktop",
+      "items": [
+        "Flutter",
+        "Dart",
+        "WinForms",
+        "WPF",
+        "C#"
+      ]
+    }
+  ],
+  "info": {
+    "name": "KOY YOTRABOTH",
+    "tagline": "Backend Developer",
+    "location": "Sangkat Tuek Thla, Khan Sen Sok, Phnom Penh, Cambodia",
+    "email": "yotrabothkoy@yahoo.com",
+    "github": "https://github.com/SEEDOFT"
+  }
+}
