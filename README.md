@@ -1,42 +1,63 @@
-# Portfolio
+# 🚀 Modern Developer Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+A professional, high-performance portfolio built with **Vue 3 (TypeScript)** and **Vite**, featuring a sleek terminal-inspired design, interactive animations, and automated GitHub Pages deployment.
 
-## Recommended IDE Setup
+## ✨ Key Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **💻 Interactive Terminal Hero**: A simulated command-line interface intro with typing effects.
+- **🏗️ Dynamic Project Grid**: Custom-styled project cards with tech-specific color coding (Laravel, Vue, Flutter, etc.).
+- **🛠️ Technical Arsenal**: Categorized skill badges with interactive hover states.
+- **🧭 Professional Navigation**: Sticky navbar with glassmorphism blur and smooth-scroll anchoring.
+- **📱 Fully Responsive**: Optimized for seamless viewing on desktops, tablets, and mobile devices.
+- **⚡ Automated CI/CD**: Integrated GitHub Actions for instant deployment to GitHub Pages on every push.
 
-## Recommended Browser Setup
+## 🛠️ Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- **Framework**: [Vue 3](https://vuejs.org/) (Composition API)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Bundler**: [Vite](https://vite.dev/)
+- **Styling**: Vanilla CSS (Custom Variables & Modern UI Patterns)
+- **Deployment**: [GitHub Actions](https://github.com/features/actions)
 
-## Type Support for `.vue` Imports in TS
+## 🚀 Quick Start
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed (v20 or higher recommended).
 
-## Customize configuration
+### 2. Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+# Navigate to the directory
+cd your-repo-name
 
-## Project Setup
-
-```sh
+# Install dependencies
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+### 3. Local Development
+```bash
 npm run dev
 ```
+Open `http://localhost:5173` in your browser.
 
-### Type-Check, Compile and Minify for Production
+### 4. Customizing Your Data
+All portfolio content is stored in a structured JSON format. To update your info, skills, or projects, edit:
+`src/data/portfolio.json`
 
-```sh
-npm run build
-```
+## 🌐 Deployment
+
+This project is configured to deploy automatically to **GitHub Pages**.
+
+1. Push your code to the `main` branch.
+2. Go to **Settings > Pages** in your GitHub repository.
+3. Under **Build and deployment > Source**, select **GitHub Actions**.
+4. Your site will be live at `https://yourusername.github.io/your-repo-name/`.
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+Built with Precision by [it-dev-student](https://github.com/your-username)
